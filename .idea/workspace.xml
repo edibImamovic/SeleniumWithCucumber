@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64bfbd2f-00da-4361-a080-28900050513f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/CucumberExerciseWithDataTables/runnerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EbayTestcase/HelperClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.feature" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/screenshotforcucumber1.png" afterPath="$PROJECT_DIR$/resources/screenshotforcucumber1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CucumberExercise/Features/CucumberExercise1.class" afterPath="$PROJECT_DIR$/target/classes/CucumberExercise/Features/CucumberExercise1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CucumberExercise/Features/HelperClass.class" afterPath="$PROJECT_DIR$/target/classes/CucumberExercise/Features/HelperClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CucumberExerciseWithDataTables/CucumberExerciseWithDataTables.class" afterPath="$PROJECT_DIR$/target/classes/CucumberExerciseWithDataTables/CucumberExerciseWithDataTables.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CucumberExercise/Features/CucumberExercise1.java" afterPath="$PROJECT_DIR$/src/main/java/CucumberExercise/Features/CucumberExercise1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CucumberExercise/Features/HelperClass.java" afterPath="$PROJECT_DIR$/src/main/java/CucumberExercise/Features/HelperClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CucumberExercise/Features/cucumberExercise1.feature" afterPath="$PROJECT_DIR$/src/main/java/CucumberExercise/Features/cucumberExercise1.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CucumberExerciseWithDataTables/CucumberExerciseWithDataTables.feature" afterPath="$PROJECT_DIR$/src/main/java/CucumberExerciseWithDataTables/CucumberExerciseWithDataTables.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CucumberExerciseWithDataTables/CucumberExerciseWithDataTables.java" afterPath="$PROJECT_DIR$/src/main/java/CucumberExerciseWithDataTables/CucumberExerciseWithDataTables.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.java" afterPath="$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,10 +31,18 @@
       <file leaf-file-name="StepDefinition.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="109" column="20" lean-forward="true" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
+            <state relative-caret-position="646">
+              <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#OpenEbayPage#0;class#StepDefinition#0" expanded="false" />
+                <element signature="method#SearchForProductInAllCategoriesDropdown#0;class#StepDefinition#0" expanded="false" />
+                <element signature="method#titleValidationAndSelectingCellphone#0;class#StepDefinition#0" expanded="false" />
+                <element signature="method#SelectingBrand#0;class#StepDefinition#0" expanded="false" />
+                <element signature="method#validateRightTab#0;class#StepDefinition#0" expanded="false" />
+                <element signature="method#SelectHighestPrice#0;class#StepDefinition#0" expanded="false" />
+                <element signature="method#find_lowest_price_from_Canada#0;class#StepDefinition#0" expanded="false" />
+                <element signature="e#4394#4460#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -112,8 +108,18 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>)</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -738,18 +744,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_Features_in__EbayTestcase - 2017.02.24 at 10h 26m 15s.xml">
-      <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_Features_in__EbayTestcase - 2017.02.24 at 10h 27m 45s.xml">
-      <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_Features_in__EbayTestcase - 2017.02.24 at 10h 28m 34s.xml">
-      <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_Features_in__EbayTestcase - 2017.02.24 at 10h 30m 19s.xml">
-      <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="All_Features_in__EbayTestcase - 2017.02.24 at 10h 36m 43s.xml">
       <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -768,6 +762,18 @@
     <history-entry file="All_Features_in__EbayTestcase - 2017.02.24 at 13h 07m 03s.xml">
       <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="All_Features_in__EbayTestcase - 2017.02.24 at 16h 43m 51s.xml">
+      <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__EbayTestcase - 2017.02.24 at 16h 48m 10s.xml">
+      <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__EbayTestcase - 2017.02.24 at 16h 56m 11s.xml">
+      <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__EbayTestcase - 2017.02.24 at 16h 58m 27s.xml">
+      <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,7 +785,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -848,7 +854,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1145,10 +1151,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="109" column="20" lean-forward="true" selection-start-line="109" selection-start-column="20" selection-end-line="109" selection-end-column="20" />
+        <state relative-caret-position="646">
+          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#OpenEbayPage#0;class#StepDefinition#0" expanded="false" />
+            <element signature="method#SearchForProductInAllCategoriesDropdown#0;class#StepDefinition#0" expanded="false" />
+            <element signature="method#titleValidationAndSelectingCellphone#0;class#StepDefinition#0" expanded="false" />
+            <element signature="method#SelectingBrand#0;class#StepDefinition#0" expanded="false" />
+            <element signature="method#validateRightTab#0;class#StepDefinition#0" expanded="false" />
+            <element signature="method#SelectHighestPrice#0;class#StepDefinition#0" expanded="false" />
+            <element signature="method#find_lowest_price_from_Canada#0;class#StepDefinition#0" expanded="false" />
+            <element signature="e#4394#4460#0" expanded="false" />
           </folding>
         </state>
       </provider>
