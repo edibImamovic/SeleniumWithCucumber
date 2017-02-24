@@ -1,9 +1,13 @@
 package CucumberExercise.Features;
 
+import com.sun.javafx.geom.IllegalPathStateException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 /**
  * Created by edibi on 8.2.2017.
@@ -26,7 +30,7 @@ public class CucumberExercise1 extends HelperClass {
 
     @Given("^Navigate to google web page$")
     public void webpageNavigation() throws Throwable {
-        browserSelector(firefox);
+        browserSelector(chrome);
         driver.get(webpage);
     }
 
@@ -38,8 +42,9 @@ public class CucumberExercise1 extends HelperClass {
 
     @When("^Click on google search$")
     public void clickOnTheBox() throws Throwable {
-        driver.findElement(By.xpath("id('lst-ib')")).sendKeys("where is my test? :)");
+        driver.findElement(By.xpath("id('lst-ib')")).sendKeys("comtrade");
         driver.findElement(By.className("sbico-c")).click();
+
     }
 
     /**

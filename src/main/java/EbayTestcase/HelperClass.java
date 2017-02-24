@@ -1,7 +1,6 @@
-package CucumberExercise.Features;
+package EbayTestcase;
 
 import com.sun.javafx.geom.IllegalPathStateException;
-import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;

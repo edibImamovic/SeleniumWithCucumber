@@ -25,11 +25,16 @@ public class CucumberExerciseWithDataTables extends HelperClass {
     public void startUp() throws Throwable {
         browserSelector(chrome);
     }
-    @After
-    public void closeBrowsers(){
-        driver.close();
-    }
 
+    @After
+    public void closeBrowsers() {
+        try {
+            driver.quit();
+        } catch (Exception e) {
+            e.getMessage();
+        }
+
+    }
 
     @Given("^I am on the Klix website$")
     public void navigateToWebsite() throws Throwable {
@@ -50,7 +55,7 @@ public class CucumberExerciseWithDataTables extends HelperClass {
     public void checkPageTitle(String title) throws Throwable {
 
         String actualTitle = driver.getTitle();
-        if(actualTitle.contains(title)){
+        if (actualTitle.contains(title)) {
             closeBrowsers();
         } else {
             throw new IllegalCharsetNameException("Title is not the same");
