@@ -1,19 +1,18 @@
 package CucumberExercise.Features;
 
 import com.sun.javafx.geom.IllegalPathStateException;
-import org.openqa.selenium.Capabilities;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.IllegalCharsetNameException;
+import java.util.concurrent.TimeUnit;
 
 import static org.apache.commons.io.FileUtils.copyFile;
 
@@ -83,5 +82,7 @@ public class HelperClass {
         }
         throw new IllegalPathStateException("Image has not been saved");
     }
+
+
 }
 

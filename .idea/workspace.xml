@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64bfbd2f-00da-4361-a080-28900050513f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CucumberExercise/Features/HelperClass.class" afterPath="$PROJECT_DIR$/target/classes/CucumberExercise/Features/HelperClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EbayTestcase/HelperClass.class" afterPath="$PROJECT_DIR$/target/classes/EbayTestcase/HelperClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/EbayTestcase/StepDefinition.class" afterPath="$PROJECT_DIR$/target/classes/EbayTestcase/StepDefinition.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CucumberExercise/Features/HelperClass.java" afterPath="$PROJECT_DIR$/src/main/java/CucumberExercise/Features/HelperClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/EbayTestcase/HelperClass.java" afterPath="$PROJECT_DIR$/src/main/java/EbayTestcase/HelperClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.feature" afterPath="$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.java" afterPath="$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.java" />
     </list>
@@ -32,8 +37,8 @@
       <file leaf-file-name="StepDefinition.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="-114">
+              <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,32 +46,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CucumberExercise1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CucumberExercise/Features/CucumberExercise1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HelperClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CucumberExercise/Features/HelperClass.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EbayTestcase/HelperClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="77" column="74" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="74" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#imageCapture#0;class#HelperClass#0" expanded="false" />
+                <element signature="method#imageCapture#0;class#HelperClass#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +63,8 @@
       <file leaf-file-name="StepDefinition.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -120,13 +109,13 @@
         <option value="$PROJECT_DIR$/src/main/java/CucumberExerciseWithDataTables/CucumberExerciseWithDataTables.java" />
         <option value="$PROJECT_DIR$/src/main/java/CucumberExerciseWithDataTables/runnerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/CucumberExerciseWithDataTables/CucumberExerciseWithDataTables.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/CucumberExercise/Features/HelperClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/CucumberExercise/Features/CucumberExercise1.java" />
         <option value="$PROJECT_DIR$/src/main/java/OlxTestCases/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/OlxTestCases/AbstractForOLX.java" />
         <option value="$PROJECT_DIR$/src/main/java/OlxTestCases/OlxTestScenario.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/EbayTestcase/HelperClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CucumberExercise/Features/HelperClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/EbayTestcase/HelperClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.java" />
       </list>
     </option>
@@ -751,9 +740,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_Features_in__EbayTestcase - 2017.02.28 at 14h 02m 40s.xml">
-      <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="All_Features_in__EbayTestcase - 2017.02.28 at 14h 09m 30s.xml">
       <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -781,6 +767,9 @@
     <history-entry file="All_Features_in__EbayTestcase - 2017.02.28 at 14h 27m 33s.xml">
       <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="All_Features_in__EbayTestcase - 2017.02.28 at 16h 32m 47s.xml">
+      <configuration name="All Features in: EbayTestcase" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -805,7 +794,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25541127" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25541127" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25541127" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -817,7 +806,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3982684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -861,14 +850,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.java</url>
-          <line>106</line>
-          <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="80" />
     </breakpoint-manager>
     <watches-manager />
@@ -1116,14 +1097,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EbayTestcase/HelperClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="82" column="49" lean-forward="false" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CucumberExercise/Features/cucumberExercise1.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1140,26 +1113,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CucumberExercise/Features/HelperClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="77" column="74" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CucumberExercise/Features/CucumberExercise1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="349">
+          <caret line="85" column="3" lean-forward="false" selection-start-line="85" selection-start-column="3" selection-end-line="85" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1172,10 +1129,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CucumberExercise/Features/CucumberExercise1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EbayTestcase/HelperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#imageCapture#0;class#HelperClass#0" expanded="false" />
+            <element signature="method#imageCapture#0;class#HelperClass#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EbayTestcase/StepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="-114">
+          <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

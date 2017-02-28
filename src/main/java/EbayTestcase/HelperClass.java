@@ -1,18 +1,19 @@
 package EbayTestcase;
 
 import com.sun.javafx.geom.IllegalPathStateException;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.interactions.Actions;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.IllegalCharsetNameException;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static org.apache.commons.io.FileUtils.copyFile;
 
@@ -81,6 +82,42 @@ public class HelperClass {
             return imgCapture;
         }
         throw new IllegalPathStateException("Image has not been saved");
+    }
+
+
+    /**
+     * Method for scrolling until some value (see param and add value to scroll to)
+     *
+     * @param idToscrollTo
+     */
+    protected void ScrollingMethod(String idToscrollTo) {
+
+        WebElement element = driver.findElement(By.id(idToscrollTo));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element);
+        actions.perform();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
+
+    public WebElement SelectCountry(String country) throws Throwable {
+        List<WebElement> cntry = driver.findElements(By.xpath("//*[@id=\"ListViewInner\"]"));
+        for (WebElement div : cntry) {
+            List<WebElement> cntr = div.findElements(By.cssSelector("ul.lvdetails.left.space-zero.full-width"));
+            for (WebElement cn : cntr) {
+
+                String countrySwitch = String.valueOf(cn.getText());
+                if (countrySwitch.contains(country)) {
+                    WebElement parent = cn.findElement(By.xpath(".."));
+                    return parent;
+
+
+                }
+
+            }
+
+        }
+
+        throw new IllegalCharsetNameException("Please enter a valid country name in format eg From France");
     }
 }
 
