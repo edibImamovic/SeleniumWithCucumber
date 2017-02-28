@@ -1,26 +1,25 @@
-
 package EbayTestcase;
 
-import com.sun.javafx.geom.IllegalPathStateException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.nio.charset.IllegalCharsetNameException;
 import java.text.NumberFormat;
-import java.text.ParseException;
 import java.util.List;
 import java.util.Locale;
+import java.util.concurrent.TimeUnit;
 
 public class StepDefinition extends EbayTestcase.HelperClass {
     String dropdownName = "Cell Phones & Accessories";
     String dropdownPrice = "Price: highest first";
     String webpage = "http://www.ebay.com/";
-    String country = "From Ukraine";
-    double priceRange = 4199.99;
+    String country = "From France";
+    Double priceRange = 6356.89;
 
 
     @Given("^I want to go to ebay page$")
@@ -75,54 +74,77 @@ public class StepDefinition extends EbayTestcase.HelperClass {
     }
 
     @When("^find lowest price from Canada$")
-    public void find_lowest_price_from_Canada() throws Throwable {
+    public String find_lowest_price_from_Canada() throws Throwable {
 
-        countrySelector(country);
+        List<WebElement> ttN = driver.findElements(By.xpath("//*[@id=\"ListViewInner\"]"));
+        for (WebElement div : ttN) {
+            NumberFormat format = NumberFormat.getCurrencyInstance(Locale.US);
+            List<WebElement> prices = div.findElements(By.cssSelector("ul.lvprices.left.space-zero > li.lvprice.prc"));
+            for (WebElement pr : prices) {
+
+                Number number = format.parse(String.valueOf(pr.getText()));
+                double price = number.doubleValue();
+
+                if (price == priceRange) {
+
+                    String priceRtn = String.valueOf(price);
+                    return priceRtn;
+                }
+
+
+            }
+
+
+        }
+
+        throw new IllegalCharsetNameException("Please provide valid price ");
     }
 
+    @When("^select country$")
+    public void countrySelector() throws Throwable {
 
-    private void countrySelector(String country) throws IllegalPathStateException, ParseException {
+
         List<WebElement> cntry = driver.findElements(By.xpath("//*[@id=\"ListViewInner\"]"));
         for (WebElement div : cntry) {
             List<WebElement> cntr = div.findElements(By.cssSelector("ul.lvdetails.left.space-zero.full-width"));
             for (WebElement cn : cntr) {
-                WebElement parent = cn.findElement(By.xpath(".."));
 
-                for (WebElement divPr : cntry) {
-                    NumberFormat format = NumberFormat.getCurrencyInstance(Locale.US);
-                    List<WebElement> prices = divPr.findElements(By.cssSelector("ul.lvprices.left.space-zero > li.lvprice.prc"));
-                    for (WebElement pr : prices) {
+                String countrySwitch = String.valueOf(cn.getText());
+                if (countrySwitch.contains(country)) {
+                    WebElement parent = cn.findElement(By.xpath(".."));
+                    List<WebElement> links = parent.findElements(By.className("lvtitle"));
+                    for (WebElement lnk : links) {
 
+                        WebElement linkSiblingCountry = lnk.findElement(By.xpath("following::ul[2]"));
+                        WebElement linkSiblingPrice = lnk.findElement(By.xpath("following::ul[1]"));
+                        String linkSiblings = linkSiblingCountry.getText();
 
-                        String countrySwitch = String.valueOf(cn.getText());
+                        NumberFormat format = NumberFormat.getCurrencyInstance(Locale.US);
+                        Number number = format.parse(String.valueOf(linkSiblingPrice.getText()));
 
-                        if (countrySwitch.contains(country)) {
-                            List<WebElement> links = parent.findElements(By.className("vip"));
+                        double price = number.doubleValue();
 
-                            String parent23 = links.toString();
+                        String linkSiblingsPrc = String.valueOf(price);
+                        String doubleConversion = String.valueOf(priceRange);
 
-                            for (WebElement div1 : links) {
+                        if (linkSiblings.contains(country) && linkSiblingsPrc.contains(doubleConversion)) {
 
-
-                                Number number = format.parse(String.valueOf(pr.getText()));
-                                System.out.println(number);
-                                if (parent23.contains(number.toString())) {
-                                    div1.click();
-                                }
-
-
-                            }
-
-
+                            WebElement element = driver.findElement(By.id("vFoot"));
+                            Actions actions = new Actions(driver);
+                            actions.moveToElement(element);
+                            actions.perform();
+                            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                            lnk.click();
                         }
-
                     }
+
 
                 }
 
             }
 
         }
+
     }
 
 
@@ -146,5 +168,3 @@ public class StepDefinition extends EbayTestcase.HelperClass {
 
 
 }
-
-

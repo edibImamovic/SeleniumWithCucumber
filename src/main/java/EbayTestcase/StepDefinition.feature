@@ -8,4 +8,5 @@ Feature: Ebay stranica odabiranje mobitela
     Then validate that we are on right tab
     When we are on apple page select by sorting higest price from first page
     When find lowest price from Canada
-    Then validate that we are on right page
+    And select country
+
